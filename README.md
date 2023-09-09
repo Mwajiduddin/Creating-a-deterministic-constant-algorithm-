@@ -4,48 +4,19 @@
   <summary> <h4>Powershell script</h4> </summary>
   
 ```Powershell
-$dbServers = @("MySQLDatabaseServer","PostgreSQLDatabaseServer")
-$webServers = @("ApacheWebServer","NginxWebServer","LiteSpeedWebServer")
-$storageServers = @("DropboxStorageServer")
+write-host "Whatever number you give me, I will change it into the number 10 through the powers of mathematics!`n"
 
+[Int]$original_number = read-host -prompt "Type a number, any number"
+$final_number = $original_number
 
-$server = "StorageServer2"
+$final_number = $final_number + 5
+$final_number *= 3
+$final_number -= 15
+$final_number /= $original_number
+$final_number += 7
+$number_is_10 = $final_number -eq 10
 
-if ($server -eq $dbServers) {
-  Write-Host "This server exists as one of the database servers"
-}
-elseif ($server -eq $webServers) {
-  Write-Host "This server exists as one of the web servers"
-}
-elseif ($server -eq $storageServers) {
-  Write-Host "This server exists as one of the storage servers"
-}
-else {
- switch ($server) {
-  {$server.Contains("Database")} {
-    $dbServers += $server
-  }
-  {$server.Contains("Web")} {
-    $webServers += $server
-  }
-  {$server.Contains("Storage")} {
-    $storageServers += $server
-  }
-  default {
-    Write-Host "This server seems to be new as it doesn't belong to one of the server groups below"
-  }
- }
-}
-
-foreach ($element in $dbServers) {
-  Write-Host "Database Servers: $element"
-}
-foreach ($element in $webServers) {
-  Write-Host "Web Servers: $element"
-}
-foreach ($element in $storageServers) {
-  Write-Host "Storage Servers: $element"
-}
-
+write-host "The number is equal to 10: $number_is_10."
+write-host "The final number is $final_number."
 ``` 
 </details>
