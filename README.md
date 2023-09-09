@@ -1,5 +1,9 @@
 <h1 align="center">Creating a deterministic constant algorithm</h1>
 
+<p align="center">
+<img src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/powershell_icon.png" height="15%" width="15%" />
+</p>
+
 <h1>Introduction</h1>
 
 
