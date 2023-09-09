@@ -1,4 +1,8 @@
-# Creating-a-deterministic-constant-algorithm-
+<h1 align="center">Creating a deterministic constant algorithm</h1>
+
+<h1>Introduction</h1>
+
+
 
 <details> 
   <summary> <h4>Powershell script</h4> </summary>
