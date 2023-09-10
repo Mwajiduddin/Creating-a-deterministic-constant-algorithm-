@@ -6,7 +6,7 @@
 
 <h1>Overview</h1>
 This Powershell script utilizes variables and arithmetic operators to create a deterministic constant algorithm, meaning the output value will always be the same no matter the input. Here the numerical output will always yield the number 10, but there is one number that this algorithm doesn't work on. Can you guess which number?
-You can download the script file or copy it down below.
+Download the script file or copy it from down below.
 
 
 <details> 
