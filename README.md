@@ -9,8 +9,7 @@ This Powershell script utilizes variables and arithmetic operators to create a d
 Download the script file or copy it from down below.
 
 
-<details> 
-  <summary> <h4>Powershell script</h4> </summary>
+<summary> <h4>Powershell script</h4> </summary>
   
 ```Powershell
 write-host "Whatever number you give me, I will change it into the number 10 through the powers of mathematics!`n"
@@ -28,4 +27,3 @@ $number_is_10 = $final_number -eq 10
 write-host "The number is equal to 10: $number_is_10."
 write-host "The final number is $final_number."
 ``` 
-</details>
